@@ -7,7 +7,7 @@
  The fault support in libmaple is quite simple.
  If fault occured, the ERROR_LED only blink at fade mode until RESET.
  Because there is no other hardware to output any error message or status. 
- And even If there were some hardware, it is hard to output under high IRQ level process which inhibit many general I/O routine. 
+ And even If there were some hardware, it is hard to output under high IRQ level processing which inhibit many general I/O routine. 
 ## 3. For another board such as BluePill
  If you wanted to detect fault occur as same as Maple_mini, only adjust port number to on-board LED's one such as PC13.
  There is only need add following lines to "util.c" top.
@@ -24,6 +24,7 @@
 #define ERROR_LED_PORT   GPIOC
 #define ERROR_LED_PIN    13
 ```
+
 
 
 
