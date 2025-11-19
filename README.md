@@ -15,7 +15,7 @@
  Target file: 'C:\Program Files (x86)\Arduino188\hardware\Arduino_STM32\STM32F1\cores\maple\libmaple\util.c`
 ```
 /*
- * Re-define ERROR_LED and ERROR_LED_PIN to PC13_LED for fit to BluePill
+ * Re-define ERROR_LED_PORT and ERROR_LED_PIN to PC13_LED for fit to BluePill
  */
 #if defined(ERROR_LED_PORT) && defined(ERROR_LED_PIN)
 #undef  ERROR_LED_PORT
@@ -25,6 +25,7 @@
 #define ERROR_LED_PORT   GPIOC
 #define ERROR_LED_PIN    13
 ```
+
 
 
 
