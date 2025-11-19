@@ -11,6 +11,7 @@
 ## 3. For another board such as BluePill
  If you wanted to detect fault occur as same as Maple_mini, only adjust port number to on-board LED's one such as PC13.
  There is only need add following lines to "util.c" top.
+ 
  Target file: 'C:\Program Files (x86)\Arduino188\hardware\Arduino_STM32\STM32F1\cores\maple\libmaple\util.c`
 ```
 /*
@@ -24,6 +25,7 @@
 #define ERROR_LED_PORT   GPIOC
 #define ERROR_LED_PIN    13
 ```
+
 
 
 
