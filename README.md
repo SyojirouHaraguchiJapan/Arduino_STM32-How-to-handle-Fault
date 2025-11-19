@@ -10,12 +10,8 @@
  And even If there were some hardware, it is hard to output under high IRQ level process which inhibit many general I/O routine. 
 ## 3. For another board such as BluePill
  If you wanted to detect fault occur as same as Maple_mini, only adjust port number to on-board LED's one such as PC13.
-
- At this time, we would re-define ERROR_LED as LED_BUILTIN for easy check of Fault occurence.
-
- There is only need add following line to "util.c" top.
-
-'C:\Program Files (x86)\Arduino188\hardware\Arduino_STM32\STM32F1\cores\maple\libmaple\util.c`
+ There is only need add following lines to "util.c" top.
+ Target file: 'C:\Program Files (x86)\Arduino188\hardware\Arduino_STM32\STM32F1\cores\maple\libmaple\util.c`
 ```
 /*
  * Re-define ERROR_LED and ERROR_LED_PIN to PC13_LED for fit to BluePill/UnlockBox-III
@@ -28,6 +24,7 @@
 #define ERROR_LED_PORT   GPIOC
 #define ERROR_LED_PIN    13
 ```
+
 
 
 
