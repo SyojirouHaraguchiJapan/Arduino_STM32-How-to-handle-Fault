@@ -1,4 +1,4 @@
-# Arduino_STM32 How to handle Fault
+# Arduino_STM32 How to handle Fault at built-in function
 Arduino_STM32 device rarely stuck and no response until RESET.\
 What happen ?\
 One of answer is FAULT occured. \
@@ -38,6 +38,7 @@ Followings are discribed about simple way to know is FAULT occur or not.
 - ### How to debug a HardFault on an Arm® Cortex®-M STM32 [STMicroelectronics Community](https://community.st.com/t5/stm32-mcus/how-to-debug-a-hardfault-on-an-arm-cortex-m-stm32/ta-p/672235).
 - ### RandomNinjaChef / KeilHardFault.c [GitHub Pages](https://github.com/cturvey/RandomNinjaChef/blob/main/KeilHardFault.c).
 - ### Debugging a Cortex-M0 Hard Fault [Arm Community](https://community.arm.com/support-forums/f/embedded-and-microcontrollers-forum/3257/debugging-a-cortex-m0-hard-fault).
+
 
 
 
