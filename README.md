@@ -1,6 +1,6 @@
 # Arduino_STM32 How to handle Fault
 ## 1. Abstruct
- Arduino_STM32 library is based on  Leaflabs Maple_mini board and hardware. 
+ Arduino_STM32 library is based on  Leaflabs Maple_mini board. 
  And on-board ERROR_LED connected to PB1.
  So, libmaple library support this ERROR_LED as default.
 ## 2. Fault support
@@ -25,6 +25,7 @@
 #define ERROR_LED_PORT   GPIOC
 #define ERROR_LED_PIN    13
 ```
+
 
 
 
