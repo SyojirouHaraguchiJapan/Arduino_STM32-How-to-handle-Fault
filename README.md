@@ -29,6 +29,8 @@
 # Reference
 - ### How do I track down a bus fault exception [STMicroelectronics Community](https://community.st.com/t5/stm32-mcus-products/how-do-i-track-down-a-bus-fault-exception/m-p/517298).
 - ### How to debug a HardFault on an Arm® Cortex®-M STM32 [STMicroelectronics Community](https://community.st.com/t5/stm32-mcus/how-to-debug-a-hardfault-on-an-arm-cortex-m-stm32/ta-p/672235).
+- ### RandomNinjaChef / KeilHardFault.c [GitHub Pages](https://github.com/cturvey/RandomNinjaChef/blob/main/KeilHardFault.c).
+
 
 
 
