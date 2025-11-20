@@ -1,4 +1,11 @@
 # Arduino_STM32 How to handle Fault
+Arduino_STM32 device rarely stuck and no response until RESET.
+What happen ?
+One of answer is FAULT occured. 
+But we can't know this status on such as BluePill, except original Maple-mini.
+
+Followings are discribed about simple way to know is FAULT occur or not.
+
 ## 1. Abstruct
  Arduino_STM32 library is based on  Leaflabs Maple_mini board. 
  And on-board ERROR_LED connected to PB1.
@@ -30,6 +37,7 @@
 - ### How do I track down a bus fault exception [STMicroelectronics Community](https://community.st.com/t5/stm32-mcus-products/how-do-i-track-down-a-bus-fault-exception/m-p/517298).
 - ### How to debug a HardFault on an Arm® Cortex®-M STM32 [STMicroelectronics Community](https://community.st.com/t5/stm32-mcus/how-to-debug-a-hardfault-on-an-arm-cortex-m-stm32/ta-p/672235).
 - ### RandomNinjaChef / KeilHardFault.c [GitHub Pages](https://github.com/cturvey/RandomNinjaChef/blob/main/KeilHardFault.c).
+
 
 
 
