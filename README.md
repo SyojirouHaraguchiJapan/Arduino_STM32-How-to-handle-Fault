@@ -27,7 +27,8 @@
 ```
 
 # Reference
-- How do I track down a bus fault exception [GitHub Pages](https://community.st.com/t5/stm32-mcus-products/how-do-i-track-down-a-bus-fault-exception/m-p/517298).
+### - How do I track down a bus fault exception [GitHub Pages](https://community.st.com/t5/stm32-mcus-products/how-do-i-track-down-a-bus-fault-exception/m-p/517298/).
+
 
 
 
