@@ -9,6 +9,7 @@ Followings are discribed about simple way to know is FAULT occur or not.
  Arduino_STM32 library is based on  Leaflabs Maple_mini board.\
  And on-board ERROR_LED connected to PB1.\
  So, libmaple library support this ERROR_LED as default.
+ ![maple_mini_sch.png](http://cholla.mmto.org/stm32/maple/maple_mini_sch.png).
 ## 2. Fault support
  The fault support in libmaple library is quite simple.\
  If fault occured, the ERROR_LED only blink at fade mode until RESET.\
@@ -37,6 +38,7 @@ Followings are discribed about simple way to know is FAULT occur or not.
 - ### How to debug a HardFault on an Arm® Cortex®-M STM32 [STMicroelectronics Community](https://community.st.com/t5/stm32-mcus/how-to-debug-a-hardfault-on-an-arm-cortex-m-stm32/ta-p/672235).
 - ### RandomNinjaChef / KeilHardFault.c [GitHub Pages](https://github.com/cturvey/RandomNinjaChef/blob/main/KeilHardFault.c).
 - ### Debugging a Cortex-M0 Hard Fault [Arm Community](https://community.arm.com/support-forums/f/embedded-and-microcontrollers-forum/3257/debugging-a-cortex-m0-hard-fault).
+
 
 
 
